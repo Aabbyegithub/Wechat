@@ -1,0 +1,73 @@
+{
+    "easycom": {
+      "autoscan": true,
+      "custom": {
+        "^uni-(.*)": "@/uni_modules/uni-$1/components/uni-$1/uni-$1.vue",
+        "^u-(.*)": "uview-plus/components/u-$1/u-$1.vue"
+      }
+    },
+    "pages": [
+      {
+        "path": "pages/index/index",
+        "style": {
+          "navigationBarTitleText": "锐信云·票据"
+        }
+      },
+      {
+        "path": "pages/wallet/wallet",
+        "style": {
+          "navigationBarTitleText": "票夹",
+          "enablePullDownRefresh": true
+        }
+      },
+      {
+        "path": "pages/my/my",
+        "style": {
+          "navigationBarTitleText": "我的"
+        }
+      },
+      {
+        "path": "pages/wallet/receipt-detail",
+        "style": {
+          "navigationBarTitleText": "票据详情"
+        }
+      },
+      {
+        "path": "pages/corporation/corporation",
+        "style": {
+          "navigationBarTitleText": "票夹",
+          "enablePullDownRefresh": true
+        }
+      },
+      {
+        "path": "pages/wallet/WalletPack",
+        "style": {
+          "navigationBarTitleText": "票夹",
+          "enablePullDownRefresh": true
+        }
+      }
+    ],
+    "tabBar": {
+      "custom": true,
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "text": "首页"
+        },
+        {
+          "pagePath": "pages/wallet/wallet",
+          "text": "票夹"
+        },
+        {
+          "pagePath": "pages/my/my",
+          "text": "我的"
+        }
+      ]
+    },
+    "globalStyle": {
+      "navigationBarTextStyle": "black",
+      "navigationBarTitleText": "锐信云·票据",
+      "navigationBarBackgroundColor": "#F8F8F8",
+      "backgroundColor": "#F8F8F8"
+    }
+  }
